@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+}
+.main {
+  height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 300px;
+  border: 1px solid;
+  padding: 10px;
+  text-align: center;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+}
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+p,
+h2 {
+  margin: 20px 10px;
+}
